@@ -1,1 +1,4 @@
-to install new library: npx expo install date-fns
+- to install new library: npx expo install date-fns
+- FlatList need two must things: 
+    1- data (is an array)
+    2- renderItem (take a function, which item will render ?)
