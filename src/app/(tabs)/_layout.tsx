@@ -15,6 +15,7 @@ export default function TabLayout() {
           headerTitle: "Reddit", // in header
           title: "Home", // in tab bar
           headerTintColor: "#FF5700",
+          headerTitleStyle: { textAlign: "center" },
           tabBarIcon: ({ color }) => (
             <AntDesign name="home" size={24} color={color} />
           ),
